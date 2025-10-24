@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Everson_FGTS">
         <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
